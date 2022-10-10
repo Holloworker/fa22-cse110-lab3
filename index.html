@@ -29,6 +29,13 @@
     <li>Third event</li>
   </ol>
 
+  <h3> New business</h3>
+  <ol>
+    <li>First: Topic</li>
+    <li>Second: content of book</li>
+    <li>Third: The pulication date</li>
+  </ol>
+
   <section>
     <h1>Introduction and meeting summary</h1>
     <p>The three Body Problem (Chinese: 三体; lit. 'Three-Body') is a 
@@ -62,7 +69,6 @@
     </audio>
   </figure>
 
-    <P> What is meeting note? NO IDEA! I am the outsider in every meeting I have attended.<br> </P>
     <p>  Here are some of the personal information <br>
         Name: Dean Zhao <br>
         Age: 8 <br>
@@ -77,7 +83,7 @@
     <details> <summary> I love college life; it's so perfect.</summary> </details> 
 
 
-<form action="" method="get" class="favourite-book">
+<form action="choose-book" method="get" class="favourite-book">
   <div class="favourite-book">
     <label for="name">Enter your favourite book: </label>
     <input type="text" name="name" id="name" required>
@@ -107,7 +113,7 @@
   <fieldset>
     <legend>Which is your first year in ucsd?</legend>
 
-    <input type="date" id="UCSD" name="college" value="Y">
+    <input type="date" id="SD" name="college" value="Y/M/D">
     <label for="UCSD">Date</label><br>
 
 
@@ -115,7 +121,7 @@
   <fieldset>
     <legend>Which is your favourite restaurant in ucsd?</legend>
 
-    <input type="checkbox" id="UCSD" name="college" value="Y">
+    <input type="checkbox" id="restaurant" name="college" value="Y">
     <label for="UCSD">Burgur King</label><br>
 
 
@@ -136,10 +142,11 @@
     <option value="Mint">
   </datalist>
   
-  <p><label for="iend-botton">Click to end:</label></p>
+  <p><label for="End">Click to end:</label></p>
   <button class="favorite styled"
         type="button">
     The end
   </button>
-</form>
+  </form>
+  </body>
 
